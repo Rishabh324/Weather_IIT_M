@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.App{
+  background-color: #B4D7FE;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  padding: 0 7% 0 7%;
+}
+
+.left-cont{
+  display: flex;
+  flex: 1.5;
+}
+
+.right-cont{
+  flex: 4.5;
+  background-size: cover;
+  border-radius: 0 35px 35px 0;
+}
+
+.left{
+  width: 100%;
+  color: white;
+  border-radius: 35px 0 0 35px;
+  padding: 20px;
+  background-size: cover;
+}
+
+.left-utils{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right{
+  border-radius: 35px 35px 35px 35px;
+  background-color: #E4F1FF;
+  height: 100%;
+  padding: 20px;
+}
+
+.right-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.top-utils i{
+  margin-right: 25px;
+  font-size: 1.3rem;
+}
+
+.chart{
+  border-radius: 35px 35px 35px 35px;
+  background-color: white;
+  padding: 25px;
+  margin: 25px;
+}
+
+.chart select{
+  border-radius: 5px 5px 5px 5px;
+  background-color: #F1F1F1;
+  font-size: 0.7rem;
+}
+
+.chart-utils{
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
+}
+
+.icon-stat{
+  color: white;
+  background-color: #0D6EFD;
+  border-radius: 8px;
+  padding: 4px;
+  width: 27px;
+}
+
+.stats-cont{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.status-parent{
+  margin: 15px;
+  background-color: white;
+  border-radius: 35px;
+  padding: 20px;
+}
