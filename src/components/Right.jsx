@@ -1,6 +1,6 @@
 import React from 'react'
 import Stats from './Stats'
-import ChartComponent from './Chartcomponent'
+import ChartComponent from './ChartComponent'
 
 const Right = () => {
     return (
@@ -29,8 +29,8 @@ const Right = () => {
                             <option value="next">Next days</option>
                         </select>
                     </div>
-                    <ChartComponent />
                 </div>
+                <ChartComponent />
             </div>
             <div className='stats'>
                 <p className='stat-head' style={{ fontWeight: 'bold' }}>More details of today's weather</p>
