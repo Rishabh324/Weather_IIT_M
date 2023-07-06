@@ -1,13 +1,9 @@
 import React from 'react';
 import CanvasJSReact from '@canvasjs/react-charts';
-//var CanvasJSReact = require('@canvasjs/react-charts');
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 const ChartComponent = () => {
     const options = {
-        // title: {
-        //     text: "Basic Column Chart in React"
-        // },
         height: 150,
         width: 810,
         axisY: {
